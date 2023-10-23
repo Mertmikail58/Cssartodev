@@ -1,0 +1,37 @@
+div></div>
+<style>
+  body{
+    background:#5E2D8C;
+  }
+  div {
+    width: 260px;
+    height: 180px;
+    background: #dd6b4d;
+    position:relative;
+    top:50px;
+    left:62px;
+    background:#42A5F5;
+    box-sizing:border-box;
+  }
+  div:before{
+content:"";
+    display:block;
+    height:30px;
+    width:200px;
+    background:#5E2D8C;
+    position:relative;
+top:32px;
+    left:30px;
+    box-shadow:3px 90px #5E2D8C;
+  }
+  div:after{
+    content:"";
+    display:block;
+    height:70px;
+    width:30px;
+    background:#5E2D8C;
+position:relative;
+    top:25px;
+    left:115px;
+  }
+</style>
